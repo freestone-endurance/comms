@@ -24,18 +24,18 @@ Once the **[Aid Name] In** or **[Aid Name] Out** buttons are tapped, the view wi
 
 The image below (left) show the Live Entry view for the Raspberry 1 Aid Station. The image below (center left) shows the Live Entry view after typing a bib number in, but before hitting the Raspberry 1 In button. The image below (center right) shows the entry for a runner right after tapping the Raspberry 1 In button, where you can easily tap to make changes, or start typing in another bib number. The final image (right shows that you can enter a time for bib number even if it isn’t on the roster.
 
-<img src="/img/parts/ost-remote/live-entry-1.png" width="20%" style="margin-left:10%"/>
-<img src="/img/parts/ost-remote/live-entry-2.png" width="20%"/>
-<img src="/img/parts/ost-remote/live-entry-3.png" width="20%"/>
-<img src="/img/parts/ost-remote/live-entry-4.png" width="20%"/>
+<img src="{{site.baseurl}}/img/parts/ost-remote/live-entry-1.png" width="20%" style="margin-left:10%"/>
+<img src="{{site.baseurl}}/img/parts/ost-remote/live-entry-2.png" width="20%"/>
+<img src="{{site.baseurl}}/img/parts/ost-remote/live-entry-3.png" width="20%"/>
+<img src="{{site.baseurl}}/img/parts/ost-remote/live-entry-4.png" width="20%"/>
 
 ### Syncing
 
 You must sync OST Remote in order to upload the runner tracking times to the cloud (and CommsHQ). To get to the Sync page, tap the “Hamburger Menu” in the top right corner, which shows the sidebar menu (image below, left. From there, select Review / Sync to go to the Sync view. If you have unsynced entries, a small red badge will show how many entries are unsynced. See the images below.
 
-<img src="/img/parts/ost-remote/sync-1.png" width="20%" style="margin-left:20%"/>
-<img src="/img/parts/ost-remote/sync-2.png" width="20%"/>
-<img src="/img/parts/ost-remote/sync-3.png" width="20%"/>
+<img src="{{site.baseurl}}/img/parts/ost-remote/sync-1.png" width="20%" style="margin-left:20%"/>
+<img src="{{site.baseurl}}/img/parts/ost-remote/sync-2.png" width="20%"/>
+<img src="{{site.baseurl}}/img/parts/ost-remote/sync-3.png" width="20%"/>
 
 Once on the Sync view, you will see your unsynced entries (see image above, right). Here, you should review the entries to cross check with your Runner Tracking Form to make sure you have the correct bib numbers, pacer, drops, and times (time accuracy within a few minutes). Now is the easiest time to correct a mistake. If anything is wrong, simply select the entry that you’d like to correct and edit the entry directly. Note the red text says that a Bib was not found. This is not necessarily an error; it could be a new runner and your OST Remote has not had it’s roster updated.
 

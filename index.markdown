@@ -3,11 +3,12 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
+title: Freestone Endurance Comms
 ---
 
 ## Sewatch Ascent
 
-- [Antero AS](/manuals/sewatch/antero)
+- [Skyline AS](/manuals/sewatch/skyline)
 
 ## Westline Winder
 

@@ -8,7 +8,7 @@ title: Freestone Endurance Comms
 
 ## Sewatch Ascent
 
-- [Skyline AS](/manuals/sewatch/skyline)
+- [Skyline AS](manuals/sewatch/skyline)
 
 ## Westline Winder
 

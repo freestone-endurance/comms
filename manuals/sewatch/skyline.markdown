@@ -2,6 +2,7 @@
 layout: manual
 race: sewatch-ascent
 aidstation: skyline
+title: Skyline - Sewatch Ascent Comms Manual
 ---
 
 # Skyline - Comms Manual

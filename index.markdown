@@ -8,8 +8,14 @@ title: Freestone Endurance Comms
 
 ## Sewatch Ascent
 
-- [Skyline AS](manuals/sewatch/skyline)
+- [Skyline](manuals/sewatch/skyline)
+- [Raspberry 1 & 2](manuals/sewatch/raspberry)
 
 ## Westline Winder
 
-- TODO
+- [Whistle Stop](manuals/westline/whistle-stop)
+- [Valley View](manuals/westline/valley-view)
+- [Big Sandy](manuals/westline/big-sandy)
+- [Speculator](manuals/westline/speculator)
+- [Sheilds](manuals/westline/shields)
+- [Midland](manuals/westline/midland)

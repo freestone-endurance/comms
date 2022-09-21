@@ -9,6 +9,8 @@ layout: manual-wrapper
 {% capture intro_content %}{% include parts/intros/{{page.race}}.markdown %}{% endcapture %}
 {{ intro_content | markdownify }}
 
+{{content}}
+
 {% for part in page.parts %}
 
 {% capture part_content %}{% include parts/{{part}}.markdown %}{% endcapture %}
@@ -16,4 +18,3 @@ layout: manual-wrapper
 
 {% endfor %}
 
-{{content}}

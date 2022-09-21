@@ -5,7 +5,7 @@ You’ve been provided with an iPhone from Freestone Endurance that has a SIM ca
 Setting up the phone as a hotspot is pretty easy:
 
 - Open the Settings app by tapping on the gears app icon
-- Select ""Personal Hotspot""
+- Select "Personal Hotspot"
 - Toggle “Allow Others to Join”
 - Now connect your other devices to the WiFi network using the password on screen.
 - Verify your connection by performing an OST Remote "Refresh Data"

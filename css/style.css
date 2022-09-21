@@ -12,3 +12,13 @@ section {
     width: 1024px;
     margin: 1em auto;
 }
+
+
+.markdown-body .task-list-item-checkbox {
+    appearance: none;
+    height: 1em;
+    width: 1em;
+    border: 1px solid black;
+    border-radius: 2px;
+    margin-right: 0.5em;
+}

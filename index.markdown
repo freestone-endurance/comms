@@ -13,9 +13,4 @@ title: Freestone Endurance Comms
 
 ## Westline Winder
 
-- [Whistle Stop](manuals/westline/whistle-stop)
-- [Valley View](manuals/westline/valley-view)
-- [Big Sandy](manuals/westline/big-sandy)
-- [Speculator](manuals/westline/speculator)
-- [Sheilds](manuals/westline/shields)
-- [Midland](manuals/westline/midland)
+- [Westline Winder (All Aids)](manuals/westline)

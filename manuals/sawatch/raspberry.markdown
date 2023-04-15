@@ -1,7 +1,7 @@
 ---
 layout: manual
-race: sewatch-ascent
-title: Raspberry 1 & 2 - Sewatch Ascent Comms Manual
+race: sawatch-ascent
+title: Raspberry 1 & 2 - Sawatch Ascent Comms Manual
 parts:
     - protocols
     - iphone-hotspot

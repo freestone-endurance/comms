@@ -1,7 +1,7 @@
 ---
 layout: manual
-race: sewatch-ascent
-title: Skyline - Sewatch Ascent Comms Manual
+race: sawatch-ascent
+title: Skyline - Sawatch Ascent Comms Manual
 parts:
     - protocols
     - starlink

@@ -1,6 +1,8 @@
 ---
 layout: manual
 race: hilo
+aids:
+- blanks
 title: Blanks Cabin - High Lonesome 100 Comms Manual
 parts:
     - protocols
@@ -8,24 +10,6 @@ parts:
     - ost-remote
     - discord
 ---
-
-## Checklists - Blanks Cabin
-
-### Device List
-- [ ] iPhone #4 [AT&T SIM]
-- [ ] iPad #9
-- [ ] Yeti Battery #6
-- [ ] Vault 200 Case #5
-
-
-### Timeline
-
-- Friday 6:00am Race Start
-- Friday 9:45pm Fooses Creek First Runner
-- Friday 11:00pm Shavano First Runner
-- Friday 11:30pm Blanks Cabin First Runner
-- Saturday 2:00pm Blanks Cabin Cutoff
-- Saturday 7:00pm Finish Line Cutoff
 
 ### Instructions
 
@@ -43,3 +27,8 @@ parts:
   - Near cutoff, reconcile with CommsHQ on runners still out on previous section
   - You must wait for CommsHQ's OK before closing
   - Someone must transfer the Comms equipment (including Starlink) to Hancock AS as soon as possible once Antero closes.
+- Sweepers
+  - Sweepers will come in from Monarch Pass and stop here
+  - Please keep food out for them after the last runner leaves
+  - New sweepers will begin from here
+  - They should not leave until after the cutoff

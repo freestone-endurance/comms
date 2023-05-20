@@ -1,0 +1,56 @@
+hilo:
+  aids:
+    raspberry1: Raspberry 1
+    antero: Antero
+    stelmo1: St Elmo 1
+    cottonwood: Cottonwood
+    stelmo2: St Elmo 2
+    tincup: Tin Cup
+    hancock: Hancock
+    lwh: Lost Wonder Hut
+    purgatory: Purgatory
+    monarch: Monarch Pass
+    fooses: Fooses Creek
+    shavano: Shavano
+    blanks: Blanks Cabin
+    raspberry2: Raspberry 2
+    finish: Finish Line
+
+  race_start: Friday 6:00am
+
+  course_record:
+    raspberry1: Friday 7:00am
+    antero: Friday 8:55am
+    stelmo1: Friday 10:07am
+    cottonwood: Friday 11:31am
+    stelmo2: Friday 12:52pm
+    tincup: Friday 1:42pm
+    hancock: Friday 3:23pm
+    lwh: Friday 4:51pm
+    purgatory: Friday 7:17pm
+    monarch: Friday 8:02pm
+    fooses: Friday 9:10pm
+    shavano: Friday 10:37pm
+    blanks: Friday 11:09pm
+    raspberry2: Saturday 1:28am
+    finish: Saturday 2:58am
+
+  last_runner:
+    tincup: Friday 10:00pm
+    purgatory: Saturday 9:00am
+    shavano: Saturday 3:30pm
+
+  cutoffs:
+    raspberry1: Friday 8:30am
+    antero: Friday 1:00pm
+    stelmo1: Friday 3:30pm
+    cottonwood: Friday 6:00pm
+    stelmo2: Friday 8:30pm
+    hancock: Saturday 1:30am
+    lwh: Saturday 4:00am
+    monarch: Saturday 9:00am
+    fooses: Saturday 11:00am
+    blanks: Saturday 2:00pm
+    raspberry2: Saturday 4:45pm
+    finish: Saturday 7:00pm
+

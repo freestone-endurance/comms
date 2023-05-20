@@ -12,8 +12,8 @@ Please use the 24-hour clock for all time recordings. This makes it easier to co
 
 - [ ] Initiate text communication with CommsHQ early
 - [ ] Set up data connection (if applicable)
-- [ ] Perform Roster Update (Refresh Data in OST Remote) to test connection (if data connection)
-- [ ] Send message to CommsHQ in Discord (if data connection**
+- [ ] Perform Roster Update (Refresh Data in OST Remote) to test connection
+- [ ] Send message to CommsHQ in Discord
 
 If your aid station has no data connection, please try to update the roster before leaving cellular service. If for some reason, you cannot update the rosters, new runners will show up as “Bib not found”. This is OK and will not affect times upon upload.
 
@@ -21,7 +21,7 @@ If your aid station has no data connection, please try to update the roster befo
 
 **Drops**: If a runner decides to drop at your aid station, you must send them to the Aid Station Captain. Always record their inbound time normally. Only the captain can officially drop a runner. The captain should fill out a drop form and pin the runner's bib to it. They should store the drop form in the Comms binder. Record the runner's drop time as outbound and setting the status to Done.
 
-**Time-Cuts**: Runners coming in after the cutoff have a 2 minute grace period at the discretion of the Captain. All runners that are time-cut must have a drop form filled out. Record their inbound time with a status as Done.
+**Time-Cuts**: Runners coming in after the cutoff have a 2 minute grace period at the discretion of the Captain. All runners that are time-cut must have a drop form (it can be abbreviated) filled out. Record their inbound time with a status as Done.
 
 In either case send a message to CommsHQ with the following information:
 

@@ -1,0 +1,8 @@
+<ul>
+{% assign tl = site.data.timeline[page.race] %}
+    <li>{{tl.race_start}} Race Start</li>
+{% for aid in page.aids %}
+    <li>{{tl.course_record[aid]}} {{tl.aids[aid]}} First Runner</li>
+    <li>{{tl.cutoffs[aid]}} {{tl.aids[aid]}} Cutoff</li>
+{% endfor %}
+</ul>

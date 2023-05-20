@@ -4,24 +4,21 @@ race: hilo
 title: Tin Cup - High Lonesome 100 Comms Manual
 parts:
     - protocols
-    - iphone-hotspot
     - ost-remote
     - discord
 ---
 
-## Checklists - Tin Cup
-
-### Device List
-- [ ]
-
-
-### Timeline
-
-- Friday 6:00am Race Start
-- Saturday 7:00pm Finish Line Cutoff
-
 ### Instructions
 
-- Track runners as they come in and out on OST first; using Runner Tracking Form as a backup.
-- Sync regularly in between runners.
-- Communicate with CommsHQ via Discord in the #sewatch-ascent-2022 channel.
+- Setup
+  - Run Roster Update in OST Remote on all devices before entering the canyon
+- Tracking
+  - Text CommsHQ via inReach when first runner arrives
+  - Track runners as they come in and out on OST AND using Runner Tracking Form.
+- Closing
+  - Near cutoff, reconcile with CommsHQ on runners still out on previous section
+  - You must wait for CommsHQ's OK before closing
+- Sweepers
+  - Please keep food out for them after the last runner leaves
+- Data Upload
+  - After closing and exiting the canyon, please upload you data by syncing the OST device.

@@ -8,6 +8,12 @@ parts:
     - discord
 ---
 
+### Gear List
+
+- inReach Satellite Communicator
+- iPad for Runner Tracking
+- Backup Runner Tracking Forms
+
 ### Instructions
 
 - Setup

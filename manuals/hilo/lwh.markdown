@@ -11,6 +11,12 @@ parts:
     - discord
 ---
 
+### Gear List
+
+- Verizon Jetpack Hotspot
+- iPad for Runner Tracking
+- Backup Runner Tracking Forms
+
 ### Instructions
 
 - Setup

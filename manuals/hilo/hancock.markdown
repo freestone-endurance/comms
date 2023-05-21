@@ -11,8 +11,19 @@ parts:
     - discord
 ---
 
+### Gear List
+
+- Starlink Satellite Terminal
+- inReach Satellite Communicator
+- 2 iPads for Runner Tracking (Transferred from Antero)
+- Backup Runner Tracking Forms
+- Power for Starlink
+
 ### Instructions
 
+- Device Delivery
+  - iPads will be delivered from Antero AS
+  - Use personal device with OST app or Runner Tracking Forms if any runners come in before iPads arrive
 - Setup
   - Set up Starlink while setting up Aid Station
   - Text CommsHQ via Discord once you have service

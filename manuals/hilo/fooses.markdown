@@ -11,6 +11,13 @@ parts:
     - discord
 ---
 
+### Gear List
+
+- Starlink Satellite Terminal [Transfer from Cottonwood AS]
+- inReach Satellite Communicator
+- iPad for Runner Tracking
+- Backup Runner Tracking Forms
+- Power for Starlink [Transferred from Cottonwood AS]
 
 ### Instructions
 

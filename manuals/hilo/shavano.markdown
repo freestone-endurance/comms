@@ -11,6 +11,11 @@ parts:
     - discord
 ---
 
+### Gear List
+
+- iPhone with Verizon SIM for Hotspot
+- iPad for Runner Tracking
+- Backup Runner Tracking Forms
 
 ### Instructions
 
@@ -22,6 +27,10 @@ parts:
   - Text CommsHQ when first runner arrives
   - Track runners as they come in and out on OST.
   - Sync regularly in between runners
+- If data service fails
+  - Tell CommsHQ
+  - Continue tracking in OST.
+  - Sync all data after closing and returning to service area
 - Closing
   - Near cutoff, reconcile with CommsHQ on runners still out on previous section
   - You must wait for CommsHQ's OK before closing

@@ -11,6 +11,14 @@ parts:
     - discord
 ---
 
+### Gear List
+
+- Starlink Satellite Terminal
+- inReach Satellite Communicator
+- 2 iPads for Runner Tracking
+- Backup Runner Tracking Forms
+- Power for Starlink
+
 ### Instructions
 
 - Setup

@@ -11,6 +11,12 @@ parts:
     - discord
 ---
 
+### Gear List
+
+- iPhone with AT&T SIM for Hotspot
+- iPad for Runner Tracking [Provided by AS Captain]
+- Backup Runner Tracking Forms
+
 ### Instructions
 
 - Setup

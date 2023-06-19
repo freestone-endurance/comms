@@ -5,6 +5,8 @@
     <li>{{tl.course_record[aid]}} {{tl.aids[aid]}} First Runner</li>
     {% if tl.cutoffs[aid] %}
     <li>{{tl.cutoffs[aid]}} {{tl.aids[aid]}} Cutoff</li>
+    {% else %}
+    <li>{{tl.last_runner[aid]}} {{tl.aids[aid]}} Last Runner</li>
     {% endif %}
 {% endfor %}
 </ul>

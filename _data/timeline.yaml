@@ -54,3 +54,49 @@ hilo:
     raspberry2: Saturday 4:45pm
     finish: Saturday 7:00pm
 
+westline-winder:
+  aids:
+    valley-view: Valley View
+    speculator: Speculator
+    shields: Shields
+    midland: Midland
+    finish: Finish
+
+  race_start: 7:00am
+
+  course_record:
+    valley-view: 8:01am
+    speculator: 9:03am
+    shields: 9:38am
+    midland: 10:17am
+    finish: 10:58am
+
+  last_runner:
+    valley-view: 9:30am
+    shields: 2:00pm
+
+  cutoffs:
+    speculator: 1:00pm
+    midland: 4:30pm
+    finish: 6:00pm
+
+sawatch-ascent:
+  aids:
+    raspberry1: Raspberry 1
+    skyline: Skyline
+    raspberry2: Raspberry 2
+    finish: Finish
+
+  race_start: 7:00am
+
+  course_record:
+    raspberry1: 7:58pm
+    skyline: 10:05am
+    raspberry2: 11:05am
+    finish: 12:10pm
+
+  cutoffs:
+    raspberry1: 9:00am
+    skyline: 2:00pm
+    raspberry2: 4:30pm
+    finish: 6:00pm

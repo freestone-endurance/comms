@@ -2,32 +2,24 @@
 layout: manual
 race: sawatch-ascent
 title: Skyline - Sawatch Ascent Comms Manual
+aids:
+    - skyline
 parts:
-    - protocols
-    - starlink
-    - ost-remote
     - discord
+    - iphone-hotspot
+    - protocols
+    - ost-remote
 ---
 
-## Checklists - Skyline
+### Gear List
 
-### Device List
-- [ ] inReach - Delorme #1
-- [ ] Starlink Satellite Terminal
-- [ ] iPhone #7
-- [ ] iPad #3
-- [ ] iPad #4
-- [ ] 2x Goal Zero Boulder 50 Solar Panel
-- [ ] Goal Zero Yeti 200X Battery (#5)
-- [ ] Vault 200 Pelican Case
-
-
-### Timeline
-
-- 7:00am Race Start
-- 8:00am Raspberry 1 First Runner
-- 10:30am Skyline First Runner
-- 2:00pm Skyline Cutoff
+- inReach
+- Starlink Satellite Terminal
+- iPhone
+- iPad x2 for OST Entry
+- 2x Goal Zero Boulder 50 Solar Panel
+- Goal Zero Yeti 200X Battery
+- Vault 200 Pelican Case
 
 ### Instructions
 

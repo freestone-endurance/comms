@@ -25,6 +25,7 @@ Comms Manuals are separated by aid station
 
 - [Skyline](manuals/sawatch/skyline)
 - [Raspberry 1 & 2](manuals/sawatch/raspberry)
+- [Finish](manuals/sawatch/finish)
 
 ## Westline Winder
 

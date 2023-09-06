@@ -7,4 +7,3 @@ We are now using Discord for text-based communication. Discord has a lot of feat
 - There is a #general channel for your use to communicate with other comms people, directors, and captains on race day.
 - Try to thread your direct responses to questions/comments (this keeps the channel clean for multiple discussions at once)
 - *Confirming Messages*: To confirm messages, just use the reactions feature. React with a thumbs up emoji to confirm any message. You can do this by tapping and holding on a message, then tapping the thumbs up emoji to react with it.
-,

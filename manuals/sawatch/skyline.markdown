@@ -13,17 +13,16 @@ parts:
 
 ### Gear List
 
-- inReach
+- inReach (Emergency Communication)
 - Starlink Satellite Terminal
+- Generator
 - iPhone
 - iPad x2 for OST Entry
-- 2x Goal Zero Boulder 50 Solar Panel
-- Goal Zero Yeti 200X Battery
-- Vault 200 Pelican Case
 
 ### Instructions
 
-- Setup Starlink in an open area, plugged into Yeti battery, with both Solar Panels daisy chained to constantly charge the battery.
+- Setup generator away from the aid station and runner's path. Remember to turn it on, engage the choke and pull the ripcord. Once the generator ison, disengage the choke and open the air vent on the top to allow air to fill the gas chamber as it uses gas.
+- Setup Starlink in an open area, plugged into the generator.
 - Refresh OST Remote data (download roster updates)
 - Contact CommsHQ via Discord (if no internet, use inReach)
 - Monitor state of Yeti battery. It should stay at 100% with both solar panels in full sunlight. Without sunlight, battery should last 6+ hours.

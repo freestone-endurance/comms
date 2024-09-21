@@ -21,7 +21,7 @@ Comms Manuals are separated by aid station
 - [Blanks Cabin](manuals/hilo/blanks)
 - [Finish Line](manuals/hilo/finish)
 
-## Sewatch Ascent
+## Sawatch Ascent
 
 - [Skyline](manuals/sawatch/skyline)
 - [Raspberry 1 & 2](manuals/sawatch/raspberry)

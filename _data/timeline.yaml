@@ -21,7 +21,9 @@ hilo:
 
   course_record:
     raspberry1: Friday 7:00am
+    skyline: Friday 8:30am
     antero: Friday 8:55am
+    baldwin: Friday 9:30am
     stelmo1: Friday 10:07am
     cottonwood: Friday 11:31am
     stelmo2: Friday 12:52pm
@@ -37,6 +39,8 @@ hilo:
     finish: Saturday 2:58am
 
   last_runner:
+    skyline: Friday 12:00pm
+    baldwin: Friday 2:00pm
     tincup: Friday 10:00pm
     purgatory: Saturday 9:00am
     shavano: Saturday 3:30pm

@@ -6,21 +6,22 @@ aids:
 title: Lost Wonder Hut - High Lonesome 100 Comms Manual
 parts:
     - protocols
-    - jetpack
+    - starlink
     - ost-remote
     - discord
 ---
 
 ### Gear List
 
-- Verizon Jetpack Hotspot
+- Starlink Satellite Terminal
+- Power for Starlink (Generator or Battery)
 - iPad for Runner Tracking
 - Backup Runner Tracking Forms
 
 ### Instructions
 
 - Setup
-  - Set up Verizon Jetpack while setting up Aid Station
+  - Set up Starlink while setting up Aid Station
   - Text CommsHQ via Discord once you have service
   - Run Roster Update in OST Remote on all devices
 - Tracking

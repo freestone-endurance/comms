@@ -13,11 +13,11 @@ parts:
 
 ### Gear List
 
-- Starlink Satellite Terminal [Transfer from Cottonwood AS]
+- Starlink Satellite Terminal
 - inReach Satellite Communicator
 - iPad for Runner Tracking
 - Backup Runner Tracking Forms
-- Power for Starlink [Transferred from Cottonwood AS]
+- Power for Starlink
 
 ### Instructions
 

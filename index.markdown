@@ -8,7 +8,9 @@ title: Freestone Endurance Comms
 Comms Manuals are separated by aid station
 
 - [Raspberry 1 & 2](manuals/hilo/raspberry)
+- [Skyline](manuals/hilo/skyline)
 - [Antero](manuals/hilo/antero)
+- [Baldwin](manuals/hilo/baldwin)
 - [St Elmo 1 & 2](manuals/hilo/stelmo)
 - [Cottonwood](manuals/hilo/cottonwood)
 - [Tin Cup](manuals/hilo/tincup)

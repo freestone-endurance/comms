@@ -7,15 +7,17 @@ aids:
 - raspberry2
 parts:
     - protocols
-    - iphone-hotspot
+    - starlink
     - ost-remote
     - discord
 ---
 
 ### Gear List
 
-- iPhone with AT&T SIM for Hotspot
-- iPad for Runner Tracking
+- Starlink Satellite Terminal for Raspberry 1
+- Starlink Satellite Terminal transferring from Cottonwood for Raspberry 2
+- Power for Starlink
+- iPhone and 2x iPads for Runner Tracking
 - Backup Runner Tracking Forms
 - Power bank
 
@@ -23,8 +25,8 @@ parts:
 
 #### Raspberry 1
 
-- Comms Director will attend Raspberry 1 to help track runners
-- Setup your iPhone hotspot ASAP
+- Assistant Comms Director Kevin Smith will attend Raspberry 1 to help track runners
+- Setup your Starlink ASAP
 - Refresh OST Remote data (download roster updates) after Race Start
 - Set up two volunteers at the inbound and two at outbound
 - As the runners come through quickly, work together to enter each one in OST Remote
@@ -33,6 +35,7 @@ parts:
 
 #### Raspberry 2
 
+- Setup Starlink that you receive from Cottonwood Transfer
 - Track runners as they come in and out on OST first; using Runner Tracking Form as a backup.
 - Sync regularly in between runners.
 - Communicate with CommsHQ via Discord

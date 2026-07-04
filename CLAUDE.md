@@ -34,6 +34,24 @@ A manual is not written top to bottom — it's **declared in front matter and as
 
 - **`index.markdown`** — the landing page; manually maintained links to every manual. Adding a new manual means adding its link here too.
 
+## Runner tracking forms
+
+Printable runner-tracking forms are generated per race from a registration CSV.
+
+- **`scripts/build-roster.rb`** converts an HL100-style registration CSV
+  (`Status, Bib, First Name, …`) into `_data/rosters/<race>.yml`. Only
+  `Status == "Active"` rows with a non-blank bib are kept; the form shows first
+  name only. Regenerate after registration changes:
+  `ruby scripts/build-roster.rb <path-to-csv> <race-slug>`
+- **`_data/races.yml`** holds each race's display name and year for the form header.
+- **`_layouts/form.html`** is a standalone, print-optimized layout (not the
+  `manual`/`markdown-body` chain). Form pages under `forms/` set `layout: form`,
+  `race:`, and `form_type:` (`bib` or `time`). Bib forms render the roster from
+  `_data/rosters/<race>.yml`; all print styling is in `css/forms.css`.
+- Add a new race's forms by generating its roster, adding a `_data/races.yml`
+  entry, creating `forms/<race>-bib.html` and `forms/<race>-time.html`, and
+  linking them from `index.markdown`.
+
 ## Layout chain
 
 `manual` → `manual-wrapper` (wraps content in `.markdown-body`) → `default` (HTML shell, github-markdown-css, footer). Site-wide chrome lives in `_layouts/default.html`; `css/style.css` holds custom overrides.

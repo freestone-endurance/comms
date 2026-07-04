@@ -23,6 +23,13 @@ Comms Manuals are separated by aid station
 - [Blanks Cabin](manuals/hilo/blanks)
 - [Finish Line](manuals/hilo/finish)
 
+### Runner Tracking Forms
+
+Printable forms for tracking runners at any aid station. Print, then write in the aid station name.
+
+- [Bib-Based Tracking Form](forms/hilo-bib.html) — pre-printed roster sorted by bib number
+- [Time-Based Tracking Form](forms/hilo-time.html) — blank log for recording arrivals in order
+
 ## Sawatch Ascent
 
 - [Skyline](manuals/sawatch/skyline)

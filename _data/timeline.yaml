@@ -20,23 +20,23 @@ hilo:
     "100M": "Friday 6:00am"
 
   course_record:
-    raspberry1: Friday 7:00am
+    raspberry1: Friday 6:59am
     skyline: Friday 8:30am
     antero: Friday 8:55am
-    baldwin: Friday 9:30am
-    stelmo1: Friday 10:07am
-    cottonwood: Friday 11:31am
-    stelmo2: Friday 12:52pm
-    tincup: Friday 1:42pm
-    hancock: Friday 3:23pm
-    lwh: Friday 4:51pm
-    purgatory: Friday 7:17pm
-    monarch: Friday 8:02pm
-    fooses: Friday 9:10pm
-    shavano: Friday 10:37pm
-    blanks: Friday 11:09pm
-    raspberry2: Saturday 1:28am
-    finish: Saturday 2:58am
+    baldwin: Friday 9:27am
+    stelmo1: Friday 10:06am
+    cottonwood: Friday 11:27am
+    stelmo2: Friday 12:47pm
+    tincup: Friday 1:28pm
+    hancock: Friday 3:02pm
+    lwh: Friday 4:29pm
+    purgatory: Friday 6:41pm
+    monarch: Friday 7:12pm
+    fooses: Friday 8:15pm
+    shavano: Friday 9:28pm
+    blanks: Friday 9:55pm
+    raspberry2: Friday 11:36pm
+    finish: Saturday 12:52am
 
   last_runner:
     skyline: Friday 12:00pm

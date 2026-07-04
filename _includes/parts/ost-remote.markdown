@@ -2,7 +2,18 @@
 
 **[Tracking runners with OST Remote Youtube Video](https://youtu.be/hL4ECiygmpU)**
 
-We track runners when they come in, when they leave, and when and where they drop. We also track whether they have a pacer or not. In the past we have used both OST Remote and a pen and paper form. This year, we are trying out just OST Remote, an app that syncs runner times to the cloud.
+We track runners when they come in, when they leave, and when and where they drop. We also track whether they have a pacer or not. We do this two ways at once: in **OST Remote**, an iOS app that syncs runner times to the cloud, and on a **paper Runner Tracking Form** as a backup. The paper form is not optional — devices, data, and power all fail, and the paper record is what keeps us tracking when they do.
+
+### Setting Up Your Tracking Team
+
+At most aid stations, tracking is a **two-person job**:
+
+- **One person runs the iPad**, entering each runner's bib and time in OST Remote.
+- **One person keeps the paper form and spots** — calling out bib numbers as runners arrive and leave, and writing every one down. This person is your backup and your second set of eyes.
+
+Post up right where runners check in. If runners come in and leave at **different spots** (separate in/out chutes), set up a person or a pair at each. At later aid stations, once the runners are more spread out, one experienced person can often handle both jobs.
+
+Whatever the setup, **every runner goes on paper as well as in the app.** When the app and the paper disagree, sort it out at the next sync while it's still fresh.
 
 ### Logging In
 
@@ -53,3 +64,14 @@ How often should you sync?
 ### Roster Update / Refresh Data
 
 As you get your aid station setup with your data connection, part of your getting ready process will be to update the roster (after the race starts. Simply tap the Menu, then Utilities, then Refresh Data.
+
+### What To Do If... (iPad & App)
+
+- **Always Be Charging (ABC):** Keep the iPad plugged in whenever you can. It's far better to top off at 90% than to discover a charging problem at 20%. A full battery buys you time to fix a power issue.
+- **The iPad is slow or frozen:** Reboot it — hold the power button for ~5 seconds, tap Power Off, wait 10 seconds, and power it back on. Rebooting does **not** log you out of OST Remote.
+- **An iCloud login prompt appears:** Just dismiss it. Some older iPads ask repeatedly — keep dismissing, there's nothing else to do.
+- **Do not log out of OST Remote.** Logging back in requires an internet connection, so if the connection is down you'll be stuck on paper until it returns. Unless CommsHQ tells you to, never log out.
+- **Keep the iPad dry.** Wet touchscreens behave unpredictably. A gallon zip bag or a sheet protector taped over the screen makes a fine rain shield.
+- **Cold or direct sun:** Cold drains the battery fast — tuck the iPad into an insulating layer during lulls. Direct sun can overheat it — move it into the shade to cool.
+- **Lost data connection:** Keep recording every runner on paper and keep entering them in OST if you can. Relay bib numbers and times to CommsHQ (see Secondary Runner Tracking in the Protocols section). Sync everything once the connection returns.
+- **Total equipment failure:** Fall back to the paper form, relay runner info to CommsHQ, and keep tracking until you've reconciled and been released — replacement equipment or instructions may come from CommsHQ.

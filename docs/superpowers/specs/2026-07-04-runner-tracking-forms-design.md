@@ -22,11 +22,15 @@ handwritten), so forms are generated **per race**, not per aid station.
 
 ## Source data
 
-- **Input:** OST CSV export, columns `First Name, Last Name, Gender, Birthdate, Age,
-  Email, Phone, City, State, Country, Bib Number`.
-- **Seed file:** `~/Downloads/Participants - OST Export and Tracking Sheet - OST Import.csv`
-  (226 High Lonesome 100 runners) — used to seed the initial HiLo roster.
-- Only `First Name` and `Bib Number` are used in the forms. All other columns are ignored.
+- **Input:** HL100 registration CSV, columns `Status, Bib, First Name, Last Name, Email
+  Address, Gender, T-Shirt, Trail Work, Crew size, Finishes, Starts, Buckle Type, Notes`.
+- **Seed file:** `~/Downloads/2026 Runners - HL100 - Runners.csv` (287 rows) — used to seed
+  the initial HiLo roster.
+- Only `Bib` and `First Name` are used in the forms. All other columns are ignored.
+- **`Status` filtering:** rows are included only when `Status == "Active"`. `Dropped`
+  runners have a blank `Bib` and must be excluded.
+- Columns are looked up **by header name** (not fixed position), so the script tolerates
+  column reordering or extra columns.
 
 ## Cleanups vs. the Google Sheets version
 
@@ -55,10 +59,10 @@ serve/build time.
 1. **Roster conversion script** — `scripts/build-roster.rb`
    - Ruby (matches the existing Jekyll/Ruby toolchain; no new runtime).
    - Usage: `ruby scripts/build-roster.rb <path-to-csv> <race-slug>`
-   - Reads the OST CSV, writes `_data/rosters/<race>.yml` as a list sorted numerically by
-     bib: `- {bib: 1, name: "Jon"}`.
-   - Cleanup: first name only, whitespace trimmed, rows with a blank bib or blank name
-     skipped.
+   - Reads the registration CSV, writes `_data/rosters/<race>.yml` as a list sorted
+     numerically by bib: `- {bib: 1, name: "Jeffrey"}`.
+   - Cleanup: first name only, whitespace trimmed; rows skipped when `Status != "Active"`
+     or the bib/name is blank. Columns resolved by header name.
    - Idempotent — safe to re-run whenever a roster changes.
    - Usage documented in `CLAUDE.md`.
 

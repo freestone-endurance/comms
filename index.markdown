@@ -29,6 +29,7 @@ Printable forms for tracking runners at any aid station. Print, then write in th
 
 - [Bib-Based Tracking Form](forms/hilo-bib.html) — pre-printed roster sorted by bib number
 - [Time-Based Tracking Form](forms/hilo-time.html) — blank log for recording arrivals in order
+- [Drop Form](forms/hilo-drop.html) — for a runner dropping at an aid station
 
 ## Sawatch Ascent
 

@@ -98,6 +98,37 @@ td.check { text-align: center; width: 0.55in; }
 
 .time-log td { height: 0.42in; }
 
+/* Drop form: a single hand-filled page, no tables. */
+.drop-intro { font-size: 10pt; margin: 0 0 14px; }
+
+.drop-field { margin: 12px 0; }
+.drop-field label { font-weight: bold; }
+.write-line.grow { width: 4in; }
+.write-line.short { width: 1.2in; }
+
+.drop-type { margin: 16px 0; }
+.drop-type-label { margin: 0 0 6px; }
+.circle-options {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.1in 0.5in;
+  padding: 0;
+  margin: 0;
+  font-weight: bold;
+}
+
+.drop-bib-note { margin: 16px 0; }
+
+.drop-comms { margin: 16px 0; }
+.drop-comms h3 { font-size: 11pt; margin: 0 0 4px; }
+.drop-comms ul { margin: 0; padding-left: 1.2em; }
+.drop-comms li { margin: 2px 0; }
+
+.drop-comments { margin-top: 16px; }
+.drop-comments-label { margin: 0 0 4px; font-weight: bold; }
+.comments-box { border: 1px solid #000; height: 1.6in; }
+
 @media print {
   .screen-note { display: none; }
   a[href]:after { content: ""; }

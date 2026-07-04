@@ -5,7 +5,8 @@
 <head>
   <meta charset="utf-8">
   {% assign race = site.data.races[page.race] %}
-  <title>{{ race.name }} Runner Tracking Form</title>
+  {% if page.form_type == 'drop' %}{% assign form_name = 'Drop Form' %}{% else %}{% assign form_name = 'Runner Tracking Form' %}{% endif %}
+  <title>{{ race.name }} {{ form_name }}</title>
   <link rel="stylesheet" href="{{ site.baseurl }}/css/forms.css">
 </head>
 <body class="form">
@@ -14,7 +15,7 @@
   <header class="form-header">
     <div class="form-heading">
       <h1>{{ race.name }} {{ race.year }}</h1>
-      <h2>Runner Tracking Form</h2>
+      <h2>{{ form_name }}</h2>
     </div>
     <div class="form-meta">
       {% if page.form_type == 'time' %}
@@ -30,6 +31,8 @@
   {% elsif page.form_type == 'time' %}
   <p class="form-instructions">Fill in the Aid Station name and direction above. As each runner passes, write the current time (Time IN) and their bib number in the next open cell, in order of arrival. When several runners come in close together, you can list multiple bib numbers in the same row under one Time IN.</p>
   {% include forms/time-log.html %}
+  {% elsif page.form_type == 'drop' %}
+  {% include forms/drop-form.html %}
   {% endif %}
 </body>
 </html>

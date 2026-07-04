@@ -46,8 +46,9 @@ Printable runner-tracking forms are generated per race from a registration CSV.
 - **`_data/races.yml`** holds each race's display name and year for the form header.
 - **`_layouts/form.html`** is a standalone, print-optimized layout (not the
   `manual`/`markdown-body` chain). Form pages under `forms/` set `layout: form`,
-  `race:`, and `form_type:` (`bib` or `time`). Bib forms render the roster from
-  `_data/rosters/<race>.yml`; all print styling is in `css/forms.css`.
+  `race:`, and `form_type:` (`bib`, `time`, or `drop`). Bib forms render the roster
+  from `_data/rosters/<race>.yml`; the `drop` form is a blank single-page drop slip
+  (`_includes/forms/drop-form.html`); all print styling is in `css/forms.css`.
 - Add a new race's forms by generating its roster, adding a `_data/races.yml`
   entry, creating `forms/<race>-bib.html` and `forms/<race>-time.html`, and
   linking them from `index.markdown`.

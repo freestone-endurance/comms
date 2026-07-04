@@ -1,9 +1,31 @@
 ## Discord
 
-We are now using Discord for text-based communication. Discord has a lot of features, so we've established some basic etiquette to keep things organized on race day.
+We use Discord for text-based communication. To keep things organized on race day, we've established some basic etiquette.
 
-- For most communication, DM @commshq directly.
-- The #race-annoucements and #drops channels are for @commshq to use exclusively. Please keep an eye on messages from that channel, but do not chat in there.
-- There is a #general channel for your use to communicate with other comms people, directors, and captains on race day.
-- Try to thread your direct responses to questions/comments (this keeps the channel clean for multiple discussions at once)
-- *Confirming Messages*: To confirm messages, just use the reactions feature. React with a thumbs up emoji to confirm any message. You can do this by tapping and holding on a message, then tapping the thumbs up emoji to react with it.
+### Reaching CommsHQ
+
+Do your CommsHQ communication in the **#comms** channel. To reach CommsHQ, mention **@CommsHQTeam** — this notifies the CommsHQ volunteers, so use it for anything time-sensitive. Use it to report:
+
+- Aid station open and ready
+- First runner for each gender
+- Regular updates
+- Drops
+- Closing requests
+
+### Emergencies
+
+For emergencies, mention **@Jon Eisen (Comms Director)**, **@Caleb Efta (Race Director)**, and **@CommsHQ**.
+
+### Notifying the Next Aid Station
+
+To notify the next aid station directly — for example, when a continuing runner has a medical issue you want them to watch for — mention that station's device, **@[next aid station iPad/iPhone]**.
+
+### Etiquette
+
+- Use **threads** for conversations. This keeps the channel readable when several things are happening at once.
+- Move non-comms conversations to **#general**.
+- Notify **@admins** for Discord server issues.
+
+### Confirming Messages
+
+To confirm a message, use the reactions feature: react with a 👍 (thumbs up) emoji. You can do this by tapping and holding on a message, then tapping the thumbs up. CommsHQ will confirm your messages the same way.

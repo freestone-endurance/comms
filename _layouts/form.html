@@ -28,7 +28,7 @@
   <p class="form-instructions">Fill in the Aid Station name above. Record Time IN and Time OUT for each runner as they arrive and leave. Check the pacer boxes if a pacer is with them. Add anyone not on the list to the New Runners section at the end.</p>
   {% include forms/bib-roster.html %}
   {% elsif page.form_type == 'time' %}
-  <p class="form-instructions">Fill in the Aid Station name and direction above. As each runner passes, write the current time (Time IN) and their bib number in the next open cell, in order of arrival.</p>
+  <p class="form-instructions">Fill in the Aid Station name and direction above. As each runner passes, write the current time (Time IN) and their bib number in the next open cell, in order of arrival. When several runners come in close together, you can list multiple bib numbers in the same row under one Time IN.</p>
   {% include forms/time-log.html %}
   {% endif %}
 </body>

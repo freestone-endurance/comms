@@ -63,7 +63,7 @@ serve/build time.
    - Usage documented in `CLAUDE.md`.
 
 2. **Race metadata** — `_data/races.yml`
-   - Keyed by race slug: `hilo: {name: "High Lonesome 100", year: 2025}`.
+   - Keyed by race slug: `hilo: {name: "High Lonesome 100", year: 2026}`.
    - Feeds the form header (name + year). Small and reusable (could later feed the index
      and intros).
 

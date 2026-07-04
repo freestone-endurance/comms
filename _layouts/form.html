@@ -1,0 +1,35 @@
+---
+---
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  {% assign race = site.data.races[page.race] %}
+  <title>{{ race.name }} Runner Tracking Form</title>
+  <link rel="stylesheet" href="{{ site.baseurl }}/css/forms.css">
+</head>
+<body class="form">
+  <p class="screen-note">Print this page with Cmd/Ctrl-P (Letter, portrait). Enable "Background graphics" if the header shading or boxes look faint.</p>
+
+  <header class="form-header">
+    <div class="form-heading">
+      <h1>{{ race.name }} {{ race.year }}</h1>
+      <h2>Runner Tracking Form</h2>
+    </div>
+    <div class="form-meta">
+      {% if page.form_type == 'time' %}
+      <p><strong>Direction:</strong> Inbound&nbsp;/&nbsp;Outbound <em>(prefer Inbound)</em></p>
+      {% endif %}
+      <p class="form-aid">Aid Station: <span class="write-line"></span></p>
+    </div>
+  </header>
+
+  {% if page.form_type == 'bib' %}
+  <p class="form-instructions">Fill in the Aid Station name above. Record Time IN and Time OUT for each runner as they arrive and leave. Check the pacer boxes if a pacer is with them. Add anyone not on the list to the New Runners section at the end.</p>
+  {% include forms/bib-roster.html %}
+  {% elsif page.form_type == 'time' %}
+  <p class="form-instructions">Fill in the Aid Station name and direction above. As each runner passes, write the current time (Time IN) and their bib number in the next open cell, in order of arrival.</p>
+  {% include forms/time-log.html %}
+  {% endif %}
+</body>
+</html>

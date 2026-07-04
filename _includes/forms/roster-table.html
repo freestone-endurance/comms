@@ -1,0 +1,24 @@
+<table class="roster-col">
+  <thead>
+    <tr>
+      <th>Bib</th>
+      <th>Name</th>
+      <th>Time IN</th>
+      <th>Pacer In?</th>
+      <th>Time OUT</th>
+      <th>Pacer Out?</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for runner in include.rows %}
+    <tr>
+      <td class="bib">{{ runner.bib }}</td>
+      <td class="name">{{ runner.name }}</td>
+      <td class="time"></td>
+      <td class="check"><span class="checkbox"></span></td>
+      <td class="time"></td>
+      <td class="check"><span class="checkbox"></span></td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>

@@ -12,9 +12,15 @@ Do your CommsHQ communication in the **#comms** channel. To reach CommsHQ, menti
 - Drops
 - Closing requests
 
+### Tracking Drops
+
+CommsHQ posts every runner who drops or is time-cut to the **#race-drops** channel. Monitor #race-drops throughout your shift and record each drop on your runner tracking form so you stop expecting those runners.
+
 ### Emergencies
 
-For emergencies, mention **@Jon Eisen (Comms Director)**, **@Caleb Efta (Race Director)**, and **@CommsHQ**.
+For medical emergencies, mention **@Medical Directors**.
+
+For all other emergencies, mention **@Jon Eisen (Comms Director)**, **@Caleb Efta (Race Director)**, and **@CommsHQ**.
 
 ### Notifying the Next Aid Station
 

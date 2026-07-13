@@ -29,7 +29,7 @@ In either case send a message to CommsHQ with the following information:
 Drop <bib#> <time dropped> <first name> <last name> at <aid name>
 ```
 
-When a runner drops at a previous aid station, CommsHQ will send you a message for each one. Please record these for later use.
+When a runner drops at a previous aid station, CommsHQ will post it in the **#race-drops** channel. Monitor that channel and record each drop for later use.
 
 ### First Runner
 

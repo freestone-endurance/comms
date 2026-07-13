@@ -41,7 +41,7 @@ CommsHQ is a team, not one person. Agree up front on who is watching Discord, wh
 - **Keep a station status board.** For each aid station, track: open / closed, whether it has a data connection or is on [secondary tracking](#secondary-runner-tracking), the device/handle to reach it on Discord, and the last time you heard from it.
 - **Confirm every message.** React with 👍 to every message an aid station sends you, and expect the same back on everything you send. Silence is not confirmation — if you do not see a 👍, assume it was not received and follow up.
 - **Relay the first runner forward.** When a station reports its first runner (per gender), confirm it, then message the *next* station with a heads-up and an ETA so they know when to expect the front of the field.
-- **Relay drops down course.** When a runner drops or is time-cut, message every downstream station so they stop expecting that runner. Use the format from the [Protocols](#protocols) section: `Drop <bib#> <time dropped> <first name> <last name> at <aid name>`.
+- **Post drops to #race-drops.** When a runner drops or is time-cut, post it in the **#race-drops** channel so downstream stations stop expecting that runner. Use the format from the [Protocols](#protocols) section: `Drop <bib#> <time dropped> <first name> <last name> at <aid name>`. Every comms volunteer monitors #race-drops, so a single post reaches all downstream stations at once.
 - **Watch for stations that need data connectivity.** Some stations have no cell or Starlink and fall back to [Secondary Runner Tracking](#secondary-runner-tracking) — texting every in/out time to CommsHQ. Enter those into OST on their behalf and confirm receipt so no runner is dropped from the live data.
 
 ### Fixing Bad Runner Times

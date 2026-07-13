@@ -7,6 +7,7 @@ title: Freestone Endurance Comms
 
 Comms Manuals are separated by aid station
 
+- [CommsHQ](manuals/hilo/commshq) — for the team managing all aid stations
 - [Raspberry 1 & 2](manuals/hilo/raspberry)
 - [Skyline](manuals/hilo/skyline)
 - [Antero](manuals/hilo/antero)

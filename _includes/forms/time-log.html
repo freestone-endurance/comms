@@ -1,4 +1,17 @@
-<div class="roster-cols">
-  {% include forms/time-grid-table.html rows=42 %}
-  {% include forms/time-grid-table.html rows=42 %}
-</div>
+<table class="time-grid">
+  <thead>
+    <tr>
+      <th>Bib</th><th>Time In</th><th>Time Out</th><th>Pacer In</th><th>Pacer Out</th>
+      <th class="group-start">Bib</th><th>Time In</th><th>Time Out</th><th>Pacer In</th><th>Pacer Out</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% comment %} 125 rows x 2 groups = 250 runner entries {% endcomment %}
+    {% for i in (1..125) %}
+    <tr>
+      <td></td><td></td><td></td><td></td><td></td>
+      <td class="group-start"></td><td></td><td></td><td></td><td></td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>

@@ -19,7 +19,7 @@
     </div>
     <div class="form-meta">
       {% if page.form_type == 'time' %}
-      <p><strong>Direction:</strong> Inbound&nbsp;/&nbsp;Outbound <em>(prefer Inbound)</em></p>
+      <p><strong>Direction:</strong> Inbound&nbsp;/&nbsp;Outbound</p>
       {% endif %}
       <p class="form-aid">Aid Station: <span class="write-line"></span></p>
     </div>
@@ -29,7 +29,7 @@
   <p class="form-instructions">Fill in the Aid Station name above. Record Time IN and Time OUT for each runner as they arrive and leave. Check the pacer boxes if a pacer is with them. Add anyone not on the list to the New Runners section at the end.</p>
   {% include forms/bib-roster.html %}
   {% elsif page.form_type == 'time' %}
-  <p class="form-instructions">Fill in the Aid Station name and direction above. As each runner passes, write the current time (Time IN) and their bib number in the next open cell, in order of arrival. When several runners come in close together, you can list multiple bib numbers in the same row under one Time IN.</p>
+  <p class="form-instructions">Fill in the Aid Station name and direction above. Write times in military time as minutes only (0000&ndash;2359). To copy the time from the cell directly above, write a ditto mark (").</p>
   {% include forms/time-log.html %}
   {% elsif page.form_type == 'drop' %}
   {% include forms/drop-form.html %}

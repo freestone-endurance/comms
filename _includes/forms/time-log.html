@@ -1,20 +1,4 @@
-<table class="time-log">
-  <thead>
-    <tr>
-      <th>Time IN</th>
-      <th>Bib Number</th>
-      <th>Time IN</th>
-      <th>Bib Number</th>
-    </tr>
-  </thead>
-  <tbody>
-    {% for i in (1..48) %}
-    <tr>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-    </tr>
-    {% endfor %}
-  </tbody>
-</table>
+<div class="roster-cols">
+  {% include forms/time-grid-table.html rows=42 %}
+  {% include forms/time-grid-table.html rows=42 %}
+</div>

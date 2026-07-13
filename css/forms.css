@@ -96,7 +96,21 @@ td.check { text-align: center; width: 0.55in; }
 }
 .new-runners td { height: 0.28in; }
 
-.time-log td { height: 0.42in; }
+/* Time grid: two narrow blank grids side by side. Each cell holds just a few
+   characters (a bib or a 4-digit military time) with room to read it. */
+.time-grid {
+  width: auto;
+  margin: 0 auto;
+}
+.time-grid th {
+  width: 0.62in;
+  text-align: center;
+  vertical-align: bottom;
+}
+.time-grid td {
+  height: 0.34in;
+  text-align: center;
+}
 
 /* Drop form: a single hand-filled page, no tables. */
 .drop-intro { font-size: 10pt; margin: 0 0 14px; }

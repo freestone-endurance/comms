@@ -36,22 +36,18 @@ A manual is not written top to bottom — it's **declared in front matter and as
 
 ## Runner tracking forms
 
-Printable runner-tracking forms are generated per race from a registration CSV.
+Printable per-race runner-tracking forms, blank for hand-filling at any aid station.
 
-- **`scripts/build-roster.rb`** converts an HL100-style registration CSV
-  (`Status, Bib, First Name, …`) into `_data/rosters/<race>.yml`. Only
-  `Status == "Active"` rows with a non-blank bib are kept; the form shows first
-  name only. Regenerate after registration changes:
-  `ruby scripts/build-roster.rb <path-to-csv> <race-slug>`
 - **`_data/races.yml`** holds each race's display name and year for the form header.
 - **`_layouts/form.html`** is a standalone, print-optimized layout (not the
   `manual`/`markdown-body` chain). Form pages under `forms/` set `layout: form`,
-  `race:`, and `form_type:` (`bib`, `time`, or `drop`). Bib forms render the roster
-  from `_data/rosters/<race>.yml`; the `drop` form is a blank single-page drop slip
-  (`_includes/forms/drop-form.html`); all print styling is in `css/forms.css`.
-- Add a new race's forms by generating its roster, adding a `_data/races.yml`
-  entry, creating `forms/<race>-bib.html` and `forms/<race>-time.html`, and
-  linking them from `index.markdown`.
+  `race:`, and `form_type:` (`time` or `drop`). The `time` form is a blank
+  Bib/In/Out/Pacer log (`_includes/forms/time-log.html`); the `drop` form is a
+  blank single-page drop slip (`_includes/forms/drop-form.html`); all print
+  styling is in `css/forms.css`.
+- Add a new race's forms by adding a `_data/races.yml` entry, creating
+  `forms/<race>-time.html` and `forms/<race>-drop.html`, and linking them from
+  `index.markdown`.
 
 ## Layout chain
 

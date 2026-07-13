@@ -47,13 +47,6 @@ body.form {
   margin: 0 0 8px;
 }
 
-.roster-cols {
-  display: flex;
-  gap: 0.3in;
-  align-items: flex-start;
-}
-.roster-col { flex: 1; }
-
 table {
   border-collapse: collapse;
   width: 100%;
@@ -77,24 +70,6 @@ th {
 thead { display: table-header-group; }
 /* Never split a runner's row across a page or column break. */
 tr { break-inside: avoid; }
-
-td.bib { font-weight: bold; text-align: center; width: 0.4in; }
-td.time { min-width: 0.85in; }
-td.check { text-align: center; width: 0.55in; }
-
-.checkbox {
-  display: inline-block;
-  width: 11px;
-  height: 11px;
-  border: 1px solid #000;
-}
-
-.new-runners-title {
-  margin: 12px 0 4px;
-  font-size: 11pt;
-  text-align: center;
-}
-.new-runners td { height: 0.28in; }
 
 /* Time grid: a single blank table of two Bib/In/Out/Pacer groups side by side,
    flowing across pages (the header repeats on each). Each cell holds just a few

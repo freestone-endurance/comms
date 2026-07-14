@@ -7,6 +7,7 @@ title: Monarch Pass - High Lonesome 100 Comms Manual
 parts:
     - protocols
     - starlink
+    - iphone-hotspot
     - ost-remote
     - discord
 ---
@@ -15,6 +16,7 @@ parts:
 
 - Starlink Satellite Terminal
 - Power for Starlink
+- iPhone with AT&T SIM for Hotspot (backup connection)
 - iPad for Runner Tracking [Provided by AS Captain]
 - Backup Runner Tracking Forms
 

@@ -6,21 +6,22 @@ aids:
 title: Blanks Cabin - High Lonesome 100 Comms Manual
 parts:
     - protocols
-    - iphone-hotspot
+    - starlink
     - ost-remote
     - discord
 ---
 
 ### Gear List
 
-- iPhone with AT&T SIM for Hotspot
+- Starlink Satellite Terminal
+- Power for Starlink
 - iPad for Runner Tracking
 - Backup Runner Tracking Forms
 
 ### Instructions
 
 - Setup
-  - Set up iPhone hotspot while setting up Aid Station
+  - Set up Starlink while setting up Aid Station
   - Text CommsHQ via Discord once you have service
   - If Discord communication is not working, use texts.
   - Run Roster Update in OST Remote on all devices

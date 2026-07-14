@@ -6,15 +6,17 @@ aids:
 title: Skyline Checkpoint - High Lonesome 100 Comms Manual
 parts:
     - protocols
+    - starlink
     - ost-remote
     - discord
 ---
 
 ### Gear List
 
-- iPhone with SIM Card
+- Starlink Satellite Terminal
+- Power for Starlink
+- iPhone with SIM Card (backup connection)
 - Runner Tracking Forms
-- Livestream might operate a Starlink up here which you can use.
 
 ### Instructions
 

@@ -6,7 +6,7 @@ aids:
 title: Hancock - High Lonesome 100 Comms Manual
 parts:
     - protocols
-    - iphone-hotspot
+    - starlink
     - ost-remote
     - discord
 ---

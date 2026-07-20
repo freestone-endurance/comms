@@ -21,7 +21,7 @@ If your aid station has no data connection, please try to update the roster befo
 
 **Drops**: If a runner decides to drop at your aid station, you must send them to the Aid Station Captain. Only the captain can officially drop a runner. The captain should fill out a drop form and pin the runner's bib to it. They should store the drop form in the Comms binder. In OST Remote, record the runner's drop as the outbound (departure) time with the status set to **Done** — that is, mark them **Done on the OUT, not the IN**. Only mark a runner Done once they are safely off-course and accounted for.
 
-**Time-Cuts**: Runners coming in after the cutoff have a 2 minute grace period at the discretion of the Captain. All runners that are time-cut must have a drop form (it can be abbreviated) filled out. Record their drop as the outbound (departure) time with the status set to **Done** on the OUT (same as a drop).
+**Time-Cuts**: Runners coming in after the cutoff have a 2 minute grace period at the discretion of the Captain. All runners that are time-cut must have a drop form (it can be abbreviated) filled out. Because a time-cut runner never leaves the aid station on course, record their drop as the **inbound (arrival) time** with the status set to **Done** — that is, mark them **Done on the IN, not the OUT**.
 
 In either case send a message to CommsHQ with the following information:
 

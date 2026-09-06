@@ -71,12 +71,17 @@ westline-winder:
     50K: "7:00am"
     30K: "8:00am"
 
+  # First-runner times are the earliest of the two distances at each aid.
+  # 50K course record: Chris Leiferman, 2025, 3:39:34 (7:00am start).
+  # 30K course record: Anders Hekkli, 2024, 2:05:29 (8:00am start).
+  # The 30K skips Speculator and Shields, but reaches Midland and the Finish
+  # ahead of the 50K leader.
   course_record:
-    valley-view: 8:00am
-    speculator: 9:03am
-    shields: 9:38am
-    midland: 9:30am
-    finish: 10:00am
+    valley-view: 7:56am   # 50K
+    speculator: 8:54am    # 50K
+    shields: 9:25am       # 50K
+    midland: 9:30am       # 30K (50K leader 10:01am)
+    finish: 10:05am       # 30K (50K leader 10:39am)
 
   last_runner:
     valley-view: 10:30am
@@ -90,18 +95,27 @@ westline-winder:
 sawatch-ascent:
   aids:
     raspberry1: Raspberry 1
+    ct-browns: CT/Browns Junction
     skyline: Skyline
     raspberry2: Raspberry 2
     finish: Finish
 
   race_start:
-    "50K": "7:00am"
+    "50K": "7:30am"
 
+  # First-runner times from the course record: Kieran Nay, 2024, 4:58:42.
+  # CT/Browns Junction (mile 9.9) is a comms-only checkpoint and has never been
+  # timed at an event, so its times are interpolated from the 2024 Raspberry 1
+  # (mile 7.3) and Skyline (mile 18.0) splits by distance and elevation gain.
   course_record:
-    raspberry1: 7:58pm
-    skyline: 10:05am
-    raspberry2: 11:05am
-    finish: 12:10pm
+    raspberry1: 8:25am
+    ct-browns: 8:50am    # interpolated
+    skyline: 10:17am
+    raspberry2: 11:23am
+    finish: 12:29pm
+
+  last_runner:
+    ct-browns: 10:15am   # interpolated from the Raspberry 1 and Skyline cutoffs
 
   cutoffs:
     raspberry1: 9:00am

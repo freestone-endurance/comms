@@ -9,31 +9,35 @@ aids:
     - midland
     - finish
 parts:
-    - discord
-    - iphone-hotspot
     - protocols
+    - starlink
+    - iphone-hotspot
     - ost-remote
+    - discord
 ---
+
+### Two Distances, Two Fields
+
+The Westline Winder runs a 50K and a 30K on the same morning. **The 30K skips Speculator and Shields** — it splits off after Valley View and rejoins at Midland.
+
+- **Valley View, Midland, Finish** track both fields. At Midland and the Finish, the 30K leader typically arrives *ahead* of the 50K leader, so your first runner will usually be a 30K runner.
+- **Speculator and Shields** see 50K runners only. Do not wait on 30K bibs.
 
 ### Gear List
 
-- iPhone (for hotspot & secondary OST)
-- iPad (for OST entry)
+- Starlink Satellite Terminal
+- Power for Starlink
+- iPhone with SIM Card (backup connection & secondary OST)
+- iPad for OST entry
+- Backup Runner Tracking Forms
 - Goal Zero Yeti Battery
 - inReach Delorme (Shields AS Only)
 
-
 ### Instructions
 
-- Setup your iPhone to hotspot
-- Setup iPad on the hotspot and refresh OST Remote data (download roster updates)
-- Notify CommsHQ via Text that you're Comms is setup on Discord
+- Set up your Starlink (see the Starlink section below)
+- Connect the iPad and refresh OST Remote data (download roster updates)
+- Message CommsHQ on Discord that your comms are set up
 - Track runners as they come in and out on OST first; using Runner Tracking Form as a backup.
 - Sync regularly in between runners
 - Use the battery to recharge the iPhone and iPad as necessary
-
-### Important Protocols
-
-- Text CommsHQ when the first runner comes through.
-- Text CommsHQ if a runner decides to drop and the AS Captain has filled out the drop form.
-- Reconcile runner tracking with CommsHQ before closing your aid station.

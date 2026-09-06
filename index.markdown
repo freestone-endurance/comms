@@ -37,6 +37,16 @@ Printable forms for tracking runners at any aid station. Print, then write in th
 - [Raspberry 1 & 2](manuals/sawatch/raspberry)
 - [Finish](manuals/sawatch/finish)
 
+### Runner Tracking Forms
+
+- [Time-Based Tracking Form](forms/sawatch-time.html) — blank log for recording arrivals in order
+- [Drop Form](forms/sawatch-drop.html) — for a runner dropping at an aid station
+
 ## Westline Winder
 
 - [Westline Winder (All Aids)](manuals/westline)
+
+### Runner Tracking Forms
+
+- [Time-Based Tracking Form](forms/westline-time.html) — blank log for recording arrivals in order
+- [Drop Form](forms/westline-drop.html) — for a runner dropping at an aid station

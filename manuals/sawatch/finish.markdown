@@ -5,18 +5,26 @@ aids:
  - finish
 title: Finish Line - Sawatch Ascent Comms Manual
 parts:
-    - discord
-    - iphone-hotspot
     - protocols
+    - starlink
+    - iphone-hotspot
     - ost-remote
+    - discord
 ---
+
+### Gear List
+
+- Starlink Satellite Terminal
+- Power for Starlink
+- iPad/iPhone for Runner Tracking
+- Backup Runner Tracking Forms
 
 ### Instructions
 
 - First few runners
   - Record times in OST when they cross on iPhone and upload immediately
 - Comms Team Setup
-  - Set up iPhone hotspot
+  - Set up Starlink
   - Text CommsHQ via Discord once you have service
   - Run Roster Update in OST Remote on your device
 - Tracking
